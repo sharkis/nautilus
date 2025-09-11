@@ -1,3 +1,5 @@
 [gd_scene format=3 uid="uid://dsapm7i2bdk80"]
 
-[node name="MainNode" type="Node2D"]
+[node name="Player" type="Node2D"]
+
+[node name="Player Collider" type="Area2D" parent="."]
